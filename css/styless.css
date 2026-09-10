@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+    background-image: url("./img/jason-dent-SnXIF8_2oPw-unsplash.jpg");
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
