@@ -5,15 +5,51 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #121212;
 }
 
 header {
     display: flex;
     justify-content: space-evenly;
     background-color: #333;
-    background-image: url("./img/jason-dent-SnXIF8_2oPw-unsplash.jpg");
+    background-image: url("../img/jason-dent-SnXIF8_2oPw-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
+}
+
+ h1 {
+    font-size: 3.9rem;
+    margin: 0;
+ }
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search {
+    padding: 10px;
+    width: 345px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #A5A5A5;
+    color: #A5A5A5;
+}
+
+.btn {
+    width: 120px;
+    height: 38px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4B4B4B;
+    color: #fff;
 }
