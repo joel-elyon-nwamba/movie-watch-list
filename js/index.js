@@ -6,10 +6,20 @@ const searchInput = document.getElementById("search-input");
 const searchButton = document.getElementById("search-button");
 
 searchInput.addEventListener("input", () => {
-    if(searchInput.value === " ") {
-        searchInput.value = " ";
-    } else {
-        searchInput.value;
-    }
+    const newInput = searchInput.value;
+    if(newInput === "") {
+        // clear movie 
 
+    } else {
+        fetch(`http://www.omdbapi.com/?s=${newInput}&apikey=54b19a43`)
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+
+        })
+    }
 })
+
+
+
+
