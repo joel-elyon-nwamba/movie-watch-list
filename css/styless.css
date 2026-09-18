@@ -75,3 +75,14 @@ form {
     padding-left: 3.45em;
     border-bottom: 1px solid #fff
 }
+
+.position {
+    display: flex;
+    gap: 10px;
+}
+
+.position-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

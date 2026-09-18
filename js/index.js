@@ -21,10 +21,14 @@ searchInput.addEventListener("input", () => {
                 for(const movieData of data.Search) {
                        movieList.innerHTML +=  `
                         <div class="movie">
+                         <div class="position">
                             <img src="${movieData.Poster}" alt="${movieData.Title} poster" class="movie-img">
+                        <div class="position-2">
                             <h2>${movieData.Title}</h2>
                             <h3>${movieData.Year}</h3>
                             <h3>${movieData.Type}</h3>
+                        </div>
+                            </div>
                         </div>
 
                         `
