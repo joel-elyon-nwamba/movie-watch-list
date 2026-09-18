@@ -53,3 +53,25 @@ form {
     background-color: #4B4B4B;
     color: #fff;
 }
+.movie-img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+.movie-list-option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.movie {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #fff;
+    gap: 20px;
+     width: 400px;
+    padding-left: 3.45em;
+    border-bottom: 1px solid #fff
+}
