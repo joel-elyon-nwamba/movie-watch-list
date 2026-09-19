@@ -1,4 +1,4 @@
-let keys = "http://www.omdbapi.com/?i=tt3896198&apikey=54b19a43";
+let keys = "http://www.omdbapi.com/?t=tt3896198&apikey=54b19a43";
 
 let apiky = "54b19a43";
 
@@ -41,7 +41,16 @@ searchInput.addEventListener("input", () => {
 });
 
 searchButton.addEventListener("click", () => {
-    
+    const userInput = searchInput.value;
+    if(userInput === " ") {
+
+    } else {
+        fetch(`http://www.omdbapi.com/?t=${newInput}&plot=full&apikey=54b19a43`)
+        .then(response => response.json())
+        .then(data => {
+            console.log(data)
+        })
+    }
 })
 
 
